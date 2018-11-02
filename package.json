@@ -1,0 +1,32 @@
+{
+  "name": "@eoln/npm-ts-bootstrap",
+  "version": "0.0.0",
+  "description": "npm TypeScript module bootstrap",
+  "main": "dist/index.js",
+  "typings": "definitions/index",
+  "typescript": {
+    "definition": "definitions/index"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoln/npm-ts-bootstrap.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "module",
+    "bootstrap"
+  ],
+  "author": "@eoln",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eoln/npm-ts-bootstrap/issues"
+  },
+  "homepage": "https://github.com/eoln/npm-ts-bootstrap#readme",
+  "dependencies": {
+    "@types/node": "^10.12.2"
+  }
+}
