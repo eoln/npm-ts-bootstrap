@@ -8,7 +8,7 @@
     "definition": "definitions/index"
   },
   "scripts": {
-    "test": "jest"
+    "test": "./node-modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,11 @@
   "homepage": "https://github.com/eoln/npm-ts-bootstrap#readme",
   "dependencies": {
     "@types/node": "^10.12.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.1.6"
   }
 }
