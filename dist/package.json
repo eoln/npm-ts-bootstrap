@@ -1,6 +1,6 @@
 {
   "name": "@eoln/npm-ts-bootstrap",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "npm TypeScript module bootstrap",
   "main": "dist/index.js",
   "typings": "definitions/index",
