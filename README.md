@@ -1,2 +1,5 @@
 # npm-ts-bootstrap
-npm TypeScript module bootstrap
+
+This bootstrap is the starting point
+to create npm TypeScript module.
+
