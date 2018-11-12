@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/eoln/npm-ts-bootstrap#readme",
   "dependencies": {
-    "@types/node": "^10.12.2"
+    "@types/node": "^10.12.5"
   },
   "devDependencies": {
     "@types/jest": "^23.3.9",
     "jest": "^23.6.0",
-    "ts-jest": "^23.1.4",
+    "ts-jest": "^23.10.4",
     "typescript": "^3.1.6"
   }
 }
