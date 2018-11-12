@@ -1,6 +1,6 @@
 {
   "name": "@eoln/npm-ts-bootstrap",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "npm TypeScript module bootstrap",
   "main": "dist/index.js",
   "typings": "definitions/index",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "tsc; cp ./package.json ./dist/"
+    "prepare": "npm run test; tsc; cp ./package.json ./dist/"
   },
   "repository": {
     "type": "git",
